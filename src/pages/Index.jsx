@@ -1,5 +1,9 @@
 import { Container, Text, Heading, Box, Image, SimpleGrid } from "@chakra-ui/react";
 import duckBackground from "/images/duck-background.jpg";
+import duck5 from "/images/duck5.jpg";
+import duck6 from "/images/duck6.jpg";
+import duck7 from "/images/duck7.jpg";
+import duck8 from "/images/duck8.jpg";
 
 const Index = () => {
   return (
@@ -10,6 +14,10 @@ const Index = () => {
         <Image src="/images/duck1.jpg" alt="Duck in natural setting" boxSize="300px" objectFit="cover" borderRadius="full" />
         <Image src="/images/duck2.jpg" alt="Duckling" boxSize="300px" objectFit="cover" borderRadius="full" />
         <Image src="/images/duck3.jpg" alt="Group of ducks" boxSize="300px" objectFit="cover" borderRadius="full" />
+        <Image src={duck5} alt="Duck swimming in a pond" boxSize="300px" objectFit="cover" borderRadius="full" />
+        <Image src={duck6} alt="Duck flying" boxSize="300px" objectFit="cover" borderRadius="full" />
+        <Image src={duck7} alt="Duck with ducklings" boxSize="300px" objectFit="cover" borderRadius="full" />
+        <Image src={duck8} alt="Duck in a park" boxSize="300px" objectFit="cover" borderRadius="full" />
       </SimpleGrid>
       <Box bg="rgba(255, 255, 255, 0.8)" p={4} borderWidth={1} borderRadius="lg" overflow="hidden" mt={4}>
         <Text fontSize="lg">
